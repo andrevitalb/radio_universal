@@ -1,0 +1,541 @@
+/*-------------------------
+		General
+-------------------------*/
+
+.logo-header { width: 16vw !important; }
+.footer-logo { width: 12vw !important; }
+
+@media (max-width: 767px){
+	.logo-header, .footer-logo {
+		min-width: 150px !important;
+	}
+}
+
+.play {
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.3);
+}
+
+.logo-station {
+	width:120px;
+	height:auto;
+	margin: 0px auto 10px;
+}
+
+.spacer-15{
+	width: 100vw;
+	height: 15px;
+}
+
+.yellow:hover { color: #FFC805; }
+
+
+/*---------------------- Index ---------------------*/
+
+/*-------------------------
+		General BG's
+-------------------------*/
+
+.bg-center { background-position: center !important; }
+.bg-center-top { background-position: center top !important; }
+.bg-center-mid { background-position: center middle !important; }
+.bg-center-bot { background-position: center bottom !important; }
+.bg-left-bot { background-position: left bottom !important; }
+
+.bg-cover { background-size: cover !important; }
+
+.abt_bg_1 { background-image: url(../images/custom/fachada-1.jpg); }
+.abt_bg_2 { background-image: url(../images/custom/recepcion.jpg); }
+.abt_bg_3 { background-image: url(../images/custom/cabina.jpg);}
+.abt_bg_4 { background-image: url(../images/custom/servidores.jpg); }
+.abt_bg_5 { background-image: url(../images/custom/unidades.jpg); }
+
+#star_tv { background-image: url(../images/custom/star_tv.jpg); }
+#cabinas_naranjas { background-image: url(../images/custom/cabinas_naranjas.jpg); }
+#seguridad_universal { background-image: url(../images/custom/seguridad_universal.jpg); }
+#el_hidrocalido { background-image: url(../images/custom/el_hidrocalido.jpg); }
+#contacto { background-image: url(../images/custom/fachada-2.jpg); }
+
+#rd_bg_1 { background-image: url(https://i.imgur.com/KBIfZNv.jpg); }
+#rd_bg_2 { background-image: url(https://i.imgur.com/e0BmBoe.jpg); }
+#rd_bg_3 { background-image: url(https://i.imgur.com/MdVGvhR.jpg); }
+
+#main_mex { background-image: url(../images/custom/cabina-la_mexicana.jpg); }
+#main_mejor { background-image: url(../images/custom/cabina-la_mejor.jpg); }
+#main_rey { background-image: url(../images/custom/cabina-stereorey.jpg); }
+#main_exa { background-image: url(../images/custom/cabina-exa.jpg); }
+#main_azul { background-image: url(../images/custom/cabina-azul.jpg); }
+
+#services_car #star { background-image: url(https://i.imgur.com/DqVH0SQ.jpg); } 
+#services_car #cabinas { background-image: url(../images/custom/cabinas_naranjas-shade.jpg); }
+#services_car #seguridad { background-image: url(https://i.imgur.com/fUEOEBC.jpg); }
+#services_car #hidrocalido { background-image: url(../images/custom/el_hidrocalido-shade.jpg); }
+
+* {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+
+/*-------------------------
+		Main Stations
+-------------------------*/
+
+#intro { padding: 70px 0 0 !important; }
+.cover-background { background-position: top !important; }
+
+#main_mex { background-position: center !important; }
+
+.rdst_btn {
+	margin-bottom: 6rem;
+	width:200px;
+	text-align:center;
+	color:#FFF;
+}
+.btn-container { width:200px; }
+.btn-lamexicana { background-color: #9C2260	 !important; }
+.btn-lamejor { background-color: #2257A1 !important; }
+.btn-stereorey { background-color: #236298 !important; }
+.btn-azul { background-color: #4B96D1 !important; }
+.btn-exa { background-color: #E46227 !important; }
+
+/*-------------------------
+		  CTA
+-------------------------*/
+
+.btn-apple, .btn-google {
+	text-transform: none;
+	background: #222;
+    border-color: #222;
+    color: #ffffff;
+    transition: all .15s ease-in-out !important;
+    margin: 0 5px;
+}
+
+#app_cta .btn {
+    font-size: 19px;
+    padding: .6rem 1.7rem;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.btn-apple i, .btn-google i {
+	margin-left: 0 !important;
+	margin-right: 4px;
+	font-size: 16px;
+}
+
+.btn-apple { font-family: Myriad Pro, sans-serif; }
+.btn-google { font-family: Product Sans, sans-serif; }
+
+.btn-apple:hover,
+.btn-apple:active,
+.btn-apple:focus,
+.btn-google:hover,
+.btn-google:active,
+.btn-google:focus {
+	background: transparent;
+    border-color: #ED6C23;
+    color: #ED6C23;
+}
+
+#rd_app .btn-apple:hover,
+#rd_app .btn-apple:active,
+#rd_app .btn-apple:focus,
+#rd_app .btn-google:hover,
+#rd_app .btn-google:active,
+#rd_app .btn-google:focus { border-color: #fff !important; }
+
+#rd_app { background-color: #ED6C23 !important; }
+
+.alt-btns img {
+	max-height: 3.5rem;
+	margin: 5px;
+}
+
+/*-------------------------
+		About Us
+-------------------------*/
+
+#about_us { padding: 0 !important; }
+#about_us .navigation-area .hor { display: none; }
+
+#about_us .navigation-area .hor.swiper-next-style4 {
+	top: 5px;
+	right: -6px;
+}
+
+#about_us .navigation-area .hor.swiper-prev-style4 { right: -13px; }
+
+@media(min-width: 767px){
+	#about_us .swiper-slide > div {
+		min-height: 569px;
+		display: table !important;
+	}
+
+	#about_us .swiper-slide > div > div {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+@media (max-width: 767px){
+	#about_us, #about_us .swiper-wrapper, #about_us .swiper-slide { min-height: 500px; }
+	#about_us .swiper-slide { padding: 120px 150px !important; }
+
+	#about_us .swiper-slide h5 {
+		font-size: 28px !important;
+		line-height: 36px;
+	}
+
+	#about_us .navigation-area {
+		width: 82px;
+		height: 40px;
+		bottom: 0;
+		position: absolute;
+	}
+
+	#about_us .navigation-area .reg { display: none; }
+	#about_us .navigation-area .hor { display: initial; }
+	.abt_bg_2 { background-position: 35% center !important; }
+}
+
+@media (max-width: 650px){
+	#about_us, #about_us .swiper-wrapper, #about_us .swiper-slide { min-height: 450px; }
+	#about_us .swiper-slide { padding: 80px !important; }
+}
+
+@media (max-width: 450px){
+	#about_us, #about_us .swiper-wrapper, #about_us .swiper-slide { min-height: 350px; }
+	#about_us .swiper-slide { padding: 50px !important; }
+
+	#about_us .swiper-slide h5 {
+		font-size: 23px !important;
+		line-height: 31px;
+	}
+}
+
+/*-------------------------
+		Services
+-------------------------*/
+
+#services_car {
+	padding: 0 !important;
+	height: 42vh;
+	min-height: 350px;
+}
+
+#services_car *:hover { cursor: pointer; }
+
+#services_car .swiper-slide { transition: all ease-in-out .3s; }
+
+#services_car .container-fluid,
+#services_car .row,
+#services_car .opacity-medium,
+#services_car .slide-hover-box,
+#services_car .services_bg { height: 100%; }
+
+.hover-option3 .grid-item figure {
+	bottom: initial;
+	top: 35%;
+}
+
+#services_car h6 {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+@media (max-width: 767px){
+	#services_car {  min-height: 500px; }
+
+	#services_car h6 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+}
+
+@media (max-width: 650px){
+	#services_car {
+		height: 55vh;
+		min-height: initial;
+	}
+
+	.hover-option3 .grid-item figure {
+		bottom: initial;
+		top: 55%;
+	}
+
+	#services_car h6 {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 38px;
+	}
+
+	#services_car p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
+
+/*-------------------------
+		Footer
+-------------------------*/
+
+@media (max-width: 767px){
+	.text-right { text-align: center !important; }
+	footer .footer-widget-area > .container > .row > div p { padding: 0 25px !important; }
+}
+
+
+/*---------------------- Páginas Estaciones ---------------------*/
+
+/*-------------------------
+		General
+-------------------------*/
+
+#p_azul .col-12 .bg-deep-pink,
+#p_azul .scroll-top-arrow,
+#p_azul ::selection {
+	background-color: #4B96D1;
+	color: #fff;
+}
+
+#p_exa .col-12 .bg-deep-pink,
+#p_exa .scroll-top-arrow,
+#p_exa ::selection {
+	background-color: #E46228;
+	color: #fff;
+}
+
+#p_mejor .col-12 .bg-deep-pink,
+#p_mejor .scroll-top-arrow,
+#p_mejor ::selection {
+	background-color: #2257A1;
+	color: #fff;
+}
+
+#p_mexicana .col-12 .bg-deep-pink,
+#p_mexicana .scroll-top-arrow,
+#p_mexicana ::selection {
+	background-color: #9C2360;
+	color: #fff;
+}
+
+#p_rey .col-12 .bg-deep-pink,
+#p_rey .scroll-top-arrow,
+#p_rey ::selection {
+	background-color: #236298;
+	color: #fff;
+}
+
+#p_azul .col-6 .text-extra-dark-gray,
+#p_azul .rd_programs .social-icon-style-8 .text-white-2:hover { color: #4B96D1; }
+
+#p_exa .col-6 .text-extra-dark-gray,
+#p_exa .rd_programs .social-icon-style-8 .text-white-2:hover { color: #E46228; }
+
+#p_mejor .col-6 .text-extra-dark-gray,
+#p_mejor .rd_programs .social-icon-style-8 .text-white-2:hover { color: #2257A1; }
+
+#p_mexicana .col-6 .text-extra-dark-gray,
+#p_mexicana .rd_programs .social-icon-style-8 .text-white-2:hover { color: #9C2360; }
+
+#p_rey .col-6 .text-extra-dark-gray,
+#p_rey .rd_programs .social-icon-style-8 .text-white-2:hover { color: #236298; }
+
+
+#p_azul .rd_programs .bg-extra-dark-gray { background-color: rgba(75, 150, 209, .80); }
+#p_exa .rd_programs .bg-extra-dark-gray { background-color: rgba(228, 98, 40, .80); }
+#p_mejor .rd_programs .bg-extra-dark-gray { background-color: rgba(34, 87, 161, .80); }
+#p_mexicana .rd_programs .bg-extra-dark-gray { background-color: rgba(156, 35, 96, .80); }
+#p_rey .rd_programs .bg-extra-dark-gray { background-color: rgba(35, 98, 152, .80); }
+
+/*-------------------------
+		Intro
+-------------------------*/
+
+.stations_intro { margin-top: 70px; }
+
+.stations_intro #mex_1 { background-image: url(../images/custom/locutores/mexicana_1.jpg); }
+.stations_intro #mex_2 { background-image: url(../images/custom/locutores/mexicana_2.jpg); }
+.stations_intro #mex_3 { background-image: url(../images/custom/locutores/mexicana_3.jpg); }
+
+#mex_3 { background-position: left !important; }
+
+.stations_intro #mejor_1 { background-image: url(../images/custom/locutores/mejor_1.jpg); }
+.stations_intro #mejor_2 { background-image: url(../images/custom/locutores/mejor_2.jpg); }
+.stations_intro #mejor_3 { background-image: url(../images/custom/locutores/mejor_3.jpg); }
+
+.stations_intro #rey_1 { background-image: url(../images/custom/locutores/rey_1.jpg); }
+.stations_intro #rey_2 { background-image: url(../images/custom/locutores/rey_2.jpg); }
+.stations_intro #rey_3 { background-image: url(../images/custom/locutores/rey_3.jpg); }
+
+.stations_intro #exa_1 { background-image: url(../images/custom/locutores/exa_1.jpg); }
+.stations_intro #exa_2 { background-image: url(../images/custom/locutores/exa_2.jpg); }
+.stations_intro #exa_3 { background-image: url(../images/custom/locutores/exa_3.jpg); }
+
+.stations_intro #azul_1 { background-image: url(../images/custom/locutores/azul_1.jpg); }
+.stations_intro #azul_2 { background-image: url(../images/custom/locutores/azul_2.jpg); }
+.stations_intro #azul_3 { background-image: url(../images/custom/locutores/azul_3.jpg); }
+
+.stations_intro .blog-column-active .opacity-medium { opacity: .075 !important; }
+
+.stations_intro .one-third-screen { margin: 0 !important; }
+
+@media (max-width: 991px){
+	.stations_intro .opacity-medium { opacity: .3 !important; }
+}
+
+@media (min-width: 992px){
+	.stations_intro .one-third-screen { height: 91.5vh !important; }
+}
+
+/*-------------------------
+		Info / Play
+-------------------------*/
+
+#p_mexicana .rd_info { background-image: url(../images/custom/cabina-la_mexicana.jpg); }
+#p_rey .rd_info { background-image: url(../images/custom/cabina-stereorey.jpg); }
+#p_exa .rd_info { background-image: url(../images/custom/cabina-exa.jpg); }
+#p_mejor .rd_info { background-image: url(../images/custom/cabina-la_mejor.jpg); }
+#p_azul .rd_info { background-image: url(../images/custom/cabina-azul.jpg); }
+
+.rd_play > img {
+	border-radius: 15px;
+	width: 75%;
+}
+
+@media(max-width: 991px) {
+	.rd_play > img { max-width: 70%; }
+}
+
+.audioP {
+	display: block;
+	width: 100%;
+	height: 60px;
+	margin-top: 20px;
+}
+
+/*-------------------------
+		Programs
+-------------------------*/
+
+.rd_programs .social-icon-style-8 .text-white-2 {
+	color: #4F4F4F;
+	font-size: 23px;
+}
+
+.rd_programs .small-icon li { margin: 20px 15px 0; }
+.rd_programs .small-icon li:hover { transform: translateY(-5px); }
+.rd_programs .col-6 .bg-deep-pink { background-color: #fff; }
+
+.rd_programs .row:nth-child(3),
+.rd_programs .row:nth-child(4),
+.rd_programs .row:nth-child(5),
+.rd_programs .row:nth-child(6) { margin-top: 35px; }
+
+.rd_programs .icon-social-small span { margin-top: 20px !important; }
+
+/*-------------------------
+		App CTA
+-------------------------*/
+
+.app_dl a img {
+	width: 8vw;
+}
+
+@media(max-width: 991px){
+	.app_dl a img { width: 15vw; }
+}
+
+@media(max-width: 767px){
+	.app_dl a img { width: 25vw; }
+}
+
+@media(max-width: 574px){
+	.app_dl a img { width: 35vw; }
+}
+
+/*---------------------- Páginas Grupo ---------------------*/
+
+/*-------------------------
+		Intro
+-------------------------*/
+
+.gr_main { margin-top: 70px; }
+.gr_main .swiper-full-screen div { height: 100%; }
+.gr_container { padding: 30% 18%; }
+.gr_txt-holder { background-color: #232323; }
+
+#star_tv + .gr_txt-holder .gr_container { padding: 20% 18% !important; }
+#seguridad_universal + .gr_txt-holder .gr_container { padding: 23% 18% !important; }
+
+.contact_phone {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.contact_phone:hover { color: #ED6C23 !important; }
+
+@media (min-width: 992px) {
+	.gr_main .row {	height: 91vh; }
+}
+
+@media (max-width: 991px){
+	.gr_container { padding: 18%; }
+}
+
+/*---------------------- Página Contacto ---------------------*/
+
+/*-------------------------
+		Main
+-------------------------*/
+
+.cont_main { margin-top: 70px; }
+#contact_section { padding: 15% 0; }
+.cont_main .swiper-full-screen div { height: 100%; }
+.cont_txt-holder { background-color: #212121; }
+input, textarea { color: #fff !important; }
+
+@media (max-width: 991px){
+	.cont_bg_block {
+		position: absolute !important;
+		visibility: hidden !important;
+	}
+
+	.cont_txt-holder { height: 91vh !important; }
+}
+
+/*------------------ Página Construcción -----------------*/
+
+#wip_cont {
+	padding: 0 !important;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(185,185,185);
+    background: -webkit-linear-gradient(132deg, rgba(185,185,185,1) 0%, rgba(255,255,255,1) 39%, rgba(236,236,236,1) 99%, rgba(181,181,181,1) 100%);
+    background: -o-linear-gradient(132deg, rgba(185,185,185,1) 0%, rgba(255,255,255,1) 39%, rgba(236,236,236,1) 99%, rgba(181,181,181,1) 100%);
+    background: linear-gradient(132deg, rgba(185,185,185,1) 0%, rgba(255,255,255,1) 39%, rgba(236,236,236,1) 99%, rgba(181,181,181,1) 100%);
+}
+
+#wip {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+}
+
+#wip img { width: 25%; }
+
+#wip h2 {
+	color: #333;
+	margin-top: 2.5rem;
+}
+
+@media(max-width: 767px){
+	#wip {  transform: translate(-50%, -55%); }
+	#wip img { width: 55%; }
+}

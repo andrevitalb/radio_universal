@@ -1,0 +1,270 @@
+/*-------------------------
+		General
+-------------------------*/
+
+.text-right * { text-align: right;}
+
+/*-------- Blink animation -----------*/
+
+@keyframes blink {
+    0%, 100% { opacity: 1;}
+    50% {opacity: 0; }
+}
+@-webkit-keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+@-moz-keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+@-o-keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/*-------- Bounce animation -----------*/
+
+@keyframes bounce {
+	0%, 100% { transform: translateY(25px); }
+	50% { transform: translateY(-10px); }
+}
+@-webkit-keyframes bounce {
+	0%, 100% { -webkit-transform: translateY(25px); }
+	50% { -webkit-transform: translateY(-10px); }
+}
+@-moz-keyframes bounce {
+    0%, 100% { -webkit-transform: translateY(25px); }
+	50% { -webkit-transform: translateY(-10px); }
+}
+@-o-keyframes bounce {
+	0%, 100% { transform: translateY(25px); }
+	50% { transform: translateY(-10px); }
+}
+
+/*-------------------------
+		General BG's
+-------------------------*/
+
+.bg-center-top { background-position: center top; }
+
+.bg_1 { background-image: url(https://i.imgur.com/C6QYP4q.jpg); }
+.bg_2 { background-image: url(https://i.imgur.com/9zZVLMh.jpg); }
+.bg_3 { background-image: url(https://i.imgur.com/jZaoNtk.jpg); }
+.bg_4 { background-image: url(https://i.imgur.com/GZIkmei.jpg); }
+
+.bld_1 { background-image: url(https://i.imgur.com/XgFa55q.jpg); }
+
+#rd_bg_1 { background-image: url(https://i.imgur.com/KBIfZNv.jpg); }
+#rd_bg_2 { background-image: url(https://i.imgur.com/e0BmBoe.jpg); }
+#rd_bg_3 { background-image: url(https://i.imgur.com/MdVGvhR.jpg); }
+
+/*-------------------------
+		Navbar
+-------------------------*/
+
+#intro_header a { color: #fff !important; }
+#intro_header a:hover { color: rgba(255,255,255,.6) !important; }
+
+#intro_header.sticky a { color: #232323 !important; }
+#intro_header.sticky a:hover { color: rgba(0,0,0,.6) !important; }
+
+/*-------------------------
+		Estaciones
+-------------------------*/
+
+#estaciones .swiper-slide { transition: all ease-in-out .3s; }
+
+#estaciones #mex { background-image: url(https://i.imgur.com/EjfIiwO.jpg); }
+#estaciones #mex:hover { background-image: url(https://i.imgur.com/2JiBBPK.jpg); }
+#estaciones #mejor { background-image: url(https://i.imgur.com/7P1h84L.jpg); }
+#estaciones #mejor:hover { background-image: url(https://i.imgur.com/KBIfZNv.jpg); }
+#estaciones #rey { background-image: url(https://i.imgur.com/rYaqV6s.jpg); }
+#estaciones #rey:hover { background-image: url(https://i.imgur.com/e0BmBoe.jpg); }
+#estaciones #exa { background-image: url(https://i.imgur.com/6vmrkuB.jpg); }
+#estaciones #exa:hover { background-image: url(https://i.imgur.com/MdVGvhR.jpg); }
+#estaciones #azul { background-image: url(https://i.imgur.com/tQl82b7.jpg); }
+#estaciones #azul:hover { background-image: url(https://i.imgur.com/Fzox9GT.jpg); }
+
+#estaciones img {
+	width: 0;
+	transition: all ease-in-out .3s;
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#estaciones .swiper-slide:hover img { width: 90px; }
+
+#estaciones .swiper-slide:hover img:hover {
+	-webkit-box-shadow: 0 0 25px 4px rgba(255,255,255,.5);
+	box-shadow: 0 0 25px 4px rgba(255,255,255,.5);
+}
+
+/*-------------------------
+		About
+-------------------------*/
+
+.right-image {
+	bottom: 70px;
+	right: 50px;
+	width: 50%;
+}
+
+.right-image img { max-width: 100%; }
+
+/*-------------------------
+		Qualities
+-------------------------*/
+
+#qualities { padding: 0; }
+
+/*-------------------------
+		Quote
+-------------------------*/
+
+#quote {
+	background-color: #fefefe;
+	color: #222;
+	padding: 130px 50px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+
+#quote h3:after {
+	content:' ';
+    display:block;
+    margin: 25px 40% 0;
+    width: 20%;
+    border:1.2px solid #BBB;
+    background-color: #BBB;
+}
+
+#quote .text-container {
+	width: 70vh;
+	display: inline-block;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 500;
+}
+
+/*-------------------------
+		Contacto
+-------------------------*/
+
+.contact-form { background-color: #212121; }
+
+/*-------------------------
+		Footer
+-------------------------*/
+
+footer .row {
+	width: 90%;
+	margin: 0 5%;
+}
+
+.yellow { color: #ccc; }
+.yellow:hover { color: #FFC805; }
+
+/*---------------------------------------------------
+				Individual pages
+---------------------------------------------------*/
+
+/*-------------------------
+		Main Header
+-------------------------*/
+
+.ind_header { padding-top: 75px !important; }
+
+.ind_header img {
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.side-rd img {
+	width: 0;
+	transition: all ease-in-out .3s;
+}
+
+.side-rd:hover img { width: 90px; }
+
+.side-rd:hover img:hover {
+	-webkit-box-shadow: 0 0 25px 4px rgba(255,255,255,.5);
+	box-shadow: 0 0 25px 4px rgba(255,255,255,.5);
+}
+
+.side-rd:hover .opacity-medium { opacity: .3; }
+
+#main_hov img {
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+}
+
+#main_hov img:hover {
+	transform: translate(-50%, -85%);
+	cursor: pointer;
+    -webkit-animation: blink 0s;
+    -moz-animation: blink 0s;
+    -o-animation: blink 0s;
+	-webkit-box-shadow: 0 0 25px 4px rgba(255,255,255,.5);
+	box-shadow: 0 0 25px 4px rgba(255,255,255,.5);
+}
+
+.ind_header i {
+	color: #bbb;
+    -webkit-animation: bounce 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: bounce 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: bounce 2s;
+    -o-animation-iteration-count: infinite;
+}
+
+#rd_about { padding: 10rem 15rem; }
+
+#rd_about > h3 {
+	margin-bottom: 4rem;
+	color: #222;
+}
+
+#rd_about > p {
+	font-size: 20px;
+	line-height: 30px;
+	color: #707070;
+}
+
+#rd_blog {
+	visibility: visible; 
+	animation-name: fadeIn;
+	background-color: #fff;
+}
+
+#rd_blog .col-12 { padding: 4rem; }
+
+#rd_blog .col-12:nth-child(2) {
+	background-image: url(https://i.imgur.com/wmhey5R.jpg);
+	background-size: cover;
+}
+
+/*-------------------------
+		Play section
+-------------------------*/
+
+#bocina { 
+	width: 0 !important;
+	height: 0 !important;
+	visibility: hidden !important;
+}
+
+#play_state { display: none; }
